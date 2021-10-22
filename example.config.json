@@ -1,0 +1,16 @@
+{
+    "---important fields---": "",
+    "api_site_url": "https://api.datadoghq.eu",
+    "dd_api_key": "",
+    "kafka_consumer_group_sh_path": "",
+    "kafka_consumer_group_config_path": "",
+    "kafka_consumer_group_bootstrap_server": "",
+    "---other fields---": "",
+    "host": "test-host",
+    "aiven_project_name": "project",
+    "aiven_service_name": "service",
+    "broker_offset_metric_name": "kafka.broker_offset",
+    "consumer_offset_metric_name": "kafka.consumer_offset",
+    "consumer_lag_metric_name": "kafka.consumer_lag",
+    "max_metrics_per_request": 7000
+}
