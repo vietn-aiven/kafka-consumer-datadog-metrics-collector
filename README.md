@@ -5,6 +5,8 @@ A small Python script that parses the output of kafka-consumer-groups.sh and sub
 
 Requires Linux-based operating system with Python 3+ (to run the included Python script) and Java 8+ (to run `kafka-consumer-groups.sh` which is part of the [Kafka distribution](https://kafka.apache.org/downloads), not included in this repo).
 
+Install the python requirements with `pip install -r requirements.txt`.
+
 # Setting up the config.json file
 
 Copy `example.config.json`into a new file called `config.json` in the same directory. This file would contain all of the configurations needed in order to set up this script. Edit the configurations inside the new `config.json` file. Here the list of configs and their purpose:
