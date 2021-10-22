@@ -21,9 +21,9 @@ Copy `example.config.json`into a new file called `config.json` in the same direc
 For more information on how to setup and run `kafka-consumer-groups.sh`, please refer to https://help.aiven.io/en/articles/2661525-viewing-and-resetting-consumer-group-offsets.
 
 ## Other fields
-- "host": this is a tag called "host" that will be tagged along with the metric points. So for example, the metrics will be tagged with "host:kafka-prd".
-- "aiven_project_name": this is a tag called "aiven-project" that will be tagged along with the metric points. So for example, the metrics will be tagged with "aiven-project:test-project".
-- "aiven_service_name": this is a tag called "aiven-service" that will be tagged along with the metric points. So for example, the metrics will be tagged with "aiven-service:test-service".
+- "host": this is a tag called "host" that will be tagged along with the metric points.
+- "aiven_project_name": this is a tag called "aiven-project" that will be tagged along with the metric points.
+- "aiven_service_name": this is a tag called "aiven-service" that will be tagged along with the metric points.
 - "broker_offset_metric_name": this is the name of the metric/series of broker offset metric points. In the metrics explorer, it would appear under the "Graph" dropdown.
 - "consumer_offset_metric_name": this is the name of the metric/series of consumer offset metric points.
 - "consumer_lag_metric_name": this is the name of the metric/series of consumer lag metric points.
