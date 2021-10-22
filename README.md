@@ -39,7 +39,7 @@ Once `config.json` has been configured, simply run the python script:
 
 # Issues when sending out the request
 
-During testing, I saw that sending 450 metric points in 1 request equated to ~100000 bytes. Datadog's max payload size is 3.2 megabytes (3200000 bytes). So we can send abit over 13k metric "points"*. But let's keep a safer value of 10000 metric points or ~2.3mb in content length. If we exceed the content length, Datadog API will return something like this:
+During testing, I saw that sending 450 metric points in 1 request equated to ~100000 bytes. Datadog's max payload size is 3.2 megabytes (3200000 bytes). So we can send abit over 13k metric "points"*. But let's keep a safer value of 7000 metric points. If we exceed the content length, Datadog API will return something like this:
 
 `{"status":"error","code":413,"errors":["Payload too large"]...`
 
